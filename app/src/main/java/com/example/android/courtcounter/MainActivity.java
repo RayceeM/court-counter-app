@@ -6,6 +6,9 @@ import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+
+    /**global variables**/
+
 int scoreTeamA = 0;
 int scoreTeamB = 0;
     @Override
@@ -73,6 +76,7 @@ int scoreTeamB = 0;
     }
     /**
      * Displays the given score for Team B.
+     * string value of score is to inform the text view that the value is an integer
      */
     public void displayForTeamB(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_b_score);
