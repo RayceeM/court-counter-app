@@ -67,12 +67,12 @@
 
 
     </LinearLayout>
-<view
+<View
     android:layout_width="1dp"
     android:layout_height="400dp"
     android:background="@android:color/darker_gray">
 
-</view>
+</View>
     <LinearLayout
         android:layout_weight="1"
         android:layout_width="0dp"
